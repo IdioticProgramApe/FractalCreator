@@ -5,7 +5,7 @@
 #include <iostream>
 
 
-namespace Bitmap
+namespace IPA
 {
 	// convert from row/col to (x, y) pair
 	struct Coord2D

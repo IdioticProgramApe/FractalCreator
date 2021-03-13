@@ -7,7 +7,7 @@
 #include "BitmapFileHeader.h"
 
 
-namespace Bitmap
+namespace IPA
 {
 	Bitmap::Bitmap(int width, int height, const std::string & outDir)
 		: m_width(width), m_height(height)

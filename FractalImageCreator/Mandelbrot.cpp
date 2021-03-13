@@ -2,7 +2,7 @@
 
 #include "Mandelbrot.h"
 
-namespace Bitmap
+namespace IPA
 {
 	int Mandelbrot::getIteration(const Coord2D & scaledPos)
 	{

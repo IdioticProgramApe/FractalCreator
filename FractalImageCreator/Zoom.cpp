@@ -3,7 +3,7 @@
 #include "Zoom.h"
 
 
-namespace Bitmap
+namespace IPA
 {
 	ZoomList::ZoomList(int width, int height) : m_width(width), m_height(height)
 	{

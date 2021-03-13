@@ -10,7 +10,7 @@
 #include "Histogram.h"
 #include "Color.h"
 
-namespace Bitmap
+namespace IPA
 {
 	struct ColorRangeInfo
 	{

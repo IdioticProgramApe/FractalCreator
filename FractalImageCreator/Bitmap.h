@@ -13,7 +13,7 @@
 /*
 * BMP file format: https://en.wikipedia.org/wiki/BMP_file_format
 */
-namespace Bitmap
+namespace IPA
 {
 	class Bitmap
 	{

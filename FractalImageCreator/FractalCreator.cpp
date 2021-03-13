@@ -3,7 +3,7 @@
 #include "FractalCreator.h"
 
 
-namespace Bitmap
+namespace IPA
 {
 	FractalCreator::FractalCreator(int width, int height, const std::string saveDir)
 		: m_bitmap(width, height, saveDir)

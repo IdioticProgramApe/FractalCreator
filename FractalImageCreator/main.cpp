@@ -38,11 +38,11 @@ int main()
 
 	//Mandelbrot
 	{
-		Bitmap::FractalCreator fractalCreator(WIDTH, HEIGHT, SAVE_DIR);
-		fractalCreator.addRange(0.0, Color::BLACK);
-		fractalCreator.addRange(0.3, Color::RED);
-		fractalCreator.addRange(0.5, Color::YELLOW);
-		fractalCreator.addRange(1.0, Color::WHITE);
+		IPA::FractalCreator fractalCreator(WIDTH, HEIGHT, SAVE_DIR);
+		fractalCreator.addRange(0.0, IPA::Color::BLACK);
+		fractalCreator.addRange(0.3, IPA::Color::RED);
+		fractalCreator.addRange(0.5, IPA::Color::YELLOW);
+		fractalCreator.addRange(1.0, IPA::Color::WHITE);
 
 		fractalCreator.addZoom(202, 295, 0.1);
 		fractalCreator.addZoom(304, 312, 0.1);
